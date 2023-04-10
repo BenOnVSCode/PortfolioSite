@@ -80,15 +80,15 @@ const Project = ({subtitle, title, desc, code, demo, image, path}) => {
                             <GrClose className='close-icon' onClick={() => setOpen(false)} />
                             <Carousel className='carousel'>
                                 <div>
-                                    <img src={`/assets/${path}/shot1.png`} />
+                                    <img alt="" src={`/assets/${path}/shot1.png`} />
                                     
                                 </div>
                                 <div>
-                                    <img src={`/assets/${path}/shot2.png`} />
+                                    <img alt="" src={`/assets/${path}/shot2.png`} />
                                     
                                 </div>
                                 <div>
-                                    <img src={`/assets/${path}/shot3.png`} />
+                                    <img alt="" src={`/assets/${path}/shot3.png`} />
                                     
                                 </div>
                                 
