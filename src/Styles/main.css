@@ -19,7 +19,6 @@ ul {
 
 a {
   text-decoration: none;
-  cursor: pointer;
 }
 
 img {
@@ -53,6 +52,52 @@ img {
   background: #fff;
   left: 4.5%;
   top: 2px;
+}
+
+.modal {
+  position: relative;
+  width: 90vw;
+  height: 90vh;
+  border: 1px solid white;
+  outline: none;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.carousel {
+  margin: 0 2rem;
+  height: 90%;
+  border: 1px solid white;
+  outline: none;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.close-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.eye {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 2rem;
+  color: gray;
+  cursor: pointer;
+}
+
+.project-image {
+  position: relative;
 }
 
 header {
@@ -238,6 +283,10 @@ section {
   align-items: center;
 }
 
+.project-details {
+  color: white;
+}
+
 .social-media-icons-footer {
   margin: 1rem;
   font-size: 30px;
@@ -263,9 +312,9 @@ section {
 }
 .btns .btn:hover {
   background: #F7F7F7;
-  color: #FF64CB;
-  border: 1px solid #FF64CB;
-  padding: 0.6rem 1.1rem;
+  color: #6700EE;
+  border: 1px solid #6700EE;
+  padding: calc(0.5rem - 1px) calc(1rem - 1px);
 }
 
 @media only screen and (max-width: 445px) {

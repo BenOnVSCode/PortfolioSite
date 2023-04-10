@@ -82,12 +82,7 @@ const Navbar = () => {
                         variants={SocialMediaIcons}
                         initial="hidden"
                         animate="visible" 
-                   ><motion.a target="_blank" href="https://www.instagram.com/4bdeladim/" > <AiOutlineInstagram className="social-media-icons" alt="instagram" /> </motion.a> </motion.li>
-                   <motion.li 
-                        variants={SocialMediaIcons}
-                        initial="hidden"
-                        animate="visible" 
-                   ><motion.a target="_blank" href="emailto:benabdeladim7@gmail.com"> <AiOutlineMail className="social-media-icons" alt="email" /> </motion.a> </motion.li>
+                   ><motion.a target="_blank" href="emailto:benallal.abdel4dim@gmail.com"> <AiOutlineMail className="social-media-icons" alt="email" /> </motion.a> </motion.li>
                </motion.ul>
            </motion.div>
         </motion.div>

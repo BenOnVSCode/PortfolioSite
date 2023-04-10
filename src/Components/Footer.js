@@ -26,14 +26,13 @@ const Footer = () => {
         className="footer-container">
             <motion.div className="content">
                 <motion.h1>Like what you see ?</motion.h1>
-                <motion.a href="emailto:benabdeladim7@gmail.com" className="hire-me">Hire me</motion.a>
+                <motion.a href="emailto:benallal.abdel4dim@gmail.com" className="hire-me">Hire me</motion.a>
             </motion.div>
             <motion.footer className="footer">
                 <motion.div className="social-icons">
                 <motion.ul>
                    <motion.li><motion.a target="_blank" href="https://github.com/4bdeladim"> <FiGithub className="social-media-icons-footer" alt="github" /> </motion.a> </motion.li>
-                   <motion.li><motion.a target="_blank" href="https://www.instagram.com/4bdeladim/"> <AiOutlineInstagram className="social-media-icons-footer" alt="instagram" /> </motion.a> </motion.li>
-                   <motion.li><motion.a target="_blank" href="emailto:benabdeladim7@gmail.com"> <AiOutlineMail className="social-media-icons-footer" alt="email" /> </motion.a> </motion.li>
+                   <motion.li><motion.a target="_blank" href="emailto:benallal.abdel4dim@gmail.com"> <AiOutlineMail className="social-media-icons-footer" alt="email" /> </motion.a> </motion.li>
                 </motion.ul>
                 </motion.div>
             </motion.footer>
