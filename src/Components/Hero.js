@@ -1,7 +1,7 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import {motion} from 'framer-motion'
 import '../Styles/main.css'
-import {Herox, scroll} from '../Styles/animate'
+import {Herox} from '../Styles/animate'
 
 const Hero = () => {
 

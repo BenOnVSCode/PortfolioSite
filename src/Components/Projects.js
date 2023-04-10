@@ -1,9 +1,6 @@
-import React, {useEffect} from 'react'
-import {motion, useAnimation} from 'framer-motion'
+import React from 'react'
+import {motion} from 'framer-motion'
 import '../Styles/main.css'
-import { useInView } from "react-intersection-observer"
-import {  ProjectImg, ProjectTitle, ProjectName, ProjectDes } from '../Styles/animate'
-import { AiFillEye} from "react-icons/ai"
 import Project from './Project'
 
 export const Projects = () => {

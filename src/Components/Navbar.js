@@ -1,26 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {motion} from 'framer-motion'
 import '../Styles/main.css'
-import {FaBars, FaTimes} from 'react-icons/fa'
 import {FiGithub} from 'react-icons/fi'
-import {AiOutlineInstagram, AiOutlineMail} from 'react-icons/ai'
+import { AiOutlineMail} from 'react-icons/ai'
 import { Link } from 'react-scroll'
 import { Header, NavLinks, SocialMediaIcons } from '../Styles/animate'
 
 const Navbar = () => {
-
-    const [bars, setBars] = useState(false)
-
-
-   const navHandler = () => {
-       setBars(!bars)
-   }
-   const closeMobileMenu = () => {
-        setBars(false)
-   }
-
-
-
 
     return (
         <>

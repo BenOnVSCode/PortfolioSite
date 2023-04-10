@@ -1,6 +1,6 @@
 import { motion, useAnimation } from 'framer-motion'
 import React, { useEffect } from 'react'
-import { AiOutlineInstagram, AiOutlineMail } from 'react-icons/ai'
+import { AiOutlineMail } from 'react-icons/ai'
 import { FiGithub } from 'react-icons/fi'
 import { useInView } from 'react-intersection-observer'
 import { Skill } from '../Styles/animate'
